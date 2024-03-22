@@ -11,10 +11,6 @@
   "types": "./src/index.tsx",
   "exports": {
     ".": "./src/index.tsx",
-    "./dialog": "./src/components/dialog.tsx",
-    "./accordion": "./src/components/accordion.tsx",
-    "./toast": "./src/components/toast.tsx",
-    "./use-toast": "./src/hooks/use-toast.ts",
     "./icons": {
       "import": "./src/icons/index.tsx",
       "types": "./src/icons/index.d.ts"
