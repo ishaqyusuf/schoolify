@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@turbocharger/ui";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@repo/ui";
 import { siteConfig } from "@/config";
 
 const config = siteConfig.pricingPage;

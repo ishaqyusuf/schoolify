@@ -1,6 +1,6 @@
 "use server";
 
-import { prisma } from "@turbocharger/database";
+import { prisma } from "@repo/database";
 
 interface FormData {
   email: string;

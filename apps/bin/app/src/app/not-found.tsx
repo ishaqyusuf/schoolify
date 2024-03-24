@@ -1,4 +1,4 @@
-import { Button } from "@turbocharger/ui";
+import { Button } from "@repo/ui";
 
 export default function NotFound() {
   return (

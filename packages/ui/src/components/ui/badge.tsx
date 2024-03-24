@@ -1,6 +1,6 @@
 import * as React from "react";
-import type { VariantProps } from "@turbocharger/utils";
-import { cn, cva } from "@turbocharger/utils";
+import type { VariantProps } from "@repo/utils";
+import { cn, cva } from "@repo/utils";
 
 const badgeVariants = cva("flex items-center rounded-full text-xs font-medium border", {
   variants: {

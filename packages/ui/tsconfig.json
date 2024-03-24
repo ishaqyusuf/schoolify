@@ -1,5 +1,5 @@
 {
-  "extends": "@turbocharger/ts-config/react-library.json",
+  "extends": "@repo/ts-config/react-library.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }

@@ -4,9 +4,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
+import { Button, Sheet, SheetContent, SheetTrigger, MenuIcon } from "@repo/ui";
+import { cn } from "@repo/utils";
 import { motion, useAnimate } from "framer-motion";
-import { Button, Sheet, SheetContent, SheetTrigger, MenuIcon } from "@turbocharger/ui";
-import { cn } from "@turbocharger/utils";
 import { useScroll } from "@/hooks/use-scroll";
 import { siteConfig } from "@/config";
 

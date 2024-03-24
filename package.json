@@ -19,7 +19,7 @@
     "@changesets/cli": "^2.27.1",
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
-    "@turbocharger/ts-config": "*",
+    "@repo/ts-config": "*",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "eslint": "^8.48.0",
     "husky": "^8.0.0",

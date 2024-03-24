@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { Button } from "@turbocharger/ui";
-import { cn, stringReplace } from "@turbocharger/utils";
+import { Button } from "@repo/ui";
+import { cn, stringReplace } from "@repo/utils";
 import { siteConfig } from "@/config";
 
 interface CallToActionProps {

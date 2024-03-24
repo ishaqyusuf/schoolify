@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
+import { Button, GoogleIcon } from "@repo/ui";
+import { cn } from "@repo/utils";
 import { signIn } from "next-auth/react";
-import { Button, GoogleIcon } from "@turbocharger/ui";
-import { cn } from "@turbocharger/utils";
 
 interface GithubLoginButtonProps {
   className?: string;

@@ -1,4 +1,4 @@
 module.exports = {
-  extends: ["@turbocharger/eslint-config/basic"],
+  extends: ["@repo/eslint-config/basic"],
   ignorePatterns: ["tsup.config.ts"],
 };

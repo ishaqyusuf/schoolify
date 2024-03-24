@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
+import { Button, MailIcon } from "@repo/ui";
+import { cn } from "@repo/utils";
 import { signIn } from "next-auth/react";
-import { Button, MailIcon } from "@turbocharger/ui";
-import { cn } from "@turbocharger/utils";
 
 interface EmailLoginButtonProps {
   className?: string;

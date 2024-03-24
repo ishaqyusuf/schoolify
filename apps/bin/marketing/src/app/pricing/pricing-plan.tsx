@@ -1,5 +1,5 @@
-import { Button, CheckCircleIcon } from "@turbocharger/ui";
-import { cn } from "@turbocharger/utils";
+import { Button, CheckCircleIcon } from "@repo/ui";
+import { cn } from "@repo/utils";
 
 interface PlanProps {
   name: string;

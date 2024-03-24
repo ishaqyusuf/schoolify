@@ -7,7 +7,7 @@ import {
   Button,
   AlertCircleIcon,
   RefreshCcwIcon,
-} from "@turbocharger/ui";
+} from "@repo/ui";
 
 export default function Error({
   error,

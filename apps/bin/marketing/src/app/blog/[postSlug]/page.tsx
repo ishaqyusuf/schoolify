@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
-import { Badge } from "@turbocharger/ui";
-import { formatDate } from "@turbocharger/utils";
+import { Badge } from "@repo/ui";
+import { formatDate } from "@repo/utils";
 import { MDX } from "@/components/mdx";
 import { getPostBySlug } from "@/lib/posts";
 

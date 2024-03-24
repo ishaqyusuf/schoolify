@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
+import { Button } from "@repo/ui";
+import { MoonIcon, SunIcon } from "@repo/ui";
 import { useTheme } from "next-themes";
-import { Button } from "@turbocharger/ui";
-import { MoonIcon, SunIcon } from "@turbocharger/ui";
 
 export const ThemeToggle = () => {
   const { theme, setTheme } = useTheme();

@@ -1,6 +1,6 @@
 import React from "react";
-import { Button } from "@turbocharger/ui";
-import { stringReplace } from "@turbocharger/utils";
+import { Button } from "@repo/ui";
+import { stringReplace } from "@repo/utils";
 
 type company = {
   name: string;

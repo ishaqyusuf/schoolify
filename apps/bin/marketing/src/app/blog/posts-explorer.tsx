@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { getAllTags } from "@turbocharger/utils";
+import { getAllTags } from "@repo/utils";
 import { TagsSelect } from "@/components/tags-select";
 import { Post } from "@/types";
 import { PostsList } from "./posts-list";

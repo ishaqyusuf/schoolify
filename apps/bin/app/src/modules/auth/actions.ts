@@ -1,6 +1,6 @@
 "use server";
 
-import { prisma } from "@turbocharger/database";
+import { prisma } from "@repo/database";
 import { getSession } from "./services";
 
 export const updateUser = async (formData: FormData, _id: unknown, key: string) => {

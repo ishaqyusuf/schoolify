@@ -1,4 +1,4 @@
-# @turbocharger/eslint-config
+# @repo/eslint-config
 
 ## 0.1.2
 

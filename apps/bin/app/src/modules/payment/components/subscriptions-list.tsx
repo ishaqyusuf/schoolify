@@ -8,8 +8,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@turbocharger/ui";
-import { cn } from "@turbocharger/utils";
+} from "@repo/ui";
+import { cn } from "@repo/utils";
 import { FormCardLayout } from "@/components/layout/form-card-layout";
 
 interface SubscriptionsListProps {

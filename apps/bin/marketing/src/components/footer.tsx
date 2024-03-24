@@ -8,7 +8,7 @@ import {
   LinkedinIcon,
   MailIcon,
   TwitterIcon,
-} from "@turbocharger/ui";
+} from "@repo/ui";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { siteConfig } from "@/config";
 

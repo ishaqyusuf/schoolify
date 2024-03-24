@@ -1,6 +1,6 @@
 import React from "react";
-import { Label, Switch } from "@turbocharger/ui";
-import { cn } from "@turbocharger/utils";
+import { Label, Switch } from "@repo/ui";
+import { cn } from "@repo/utils";
 import { siteConfig } from "@/config";
 import { PricingPlan } from "./pricing-plan";
 

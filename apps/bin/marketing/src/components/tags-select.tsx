@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import { Badge } from "@turbocharger/ui";
-import { cn } from "@turbocharger/utils";
+import { Badge } from "@repo/ui";
+import { cn } from "@repo/utils";
 
 interface TagsSelectProps {
   tags: string[];

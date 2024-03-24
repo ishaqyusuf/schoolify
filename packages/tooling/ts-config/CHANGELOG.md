@@ -1,4 +1,4 @@
-# @turbocharger/ts-config
+# @repo/ts-config
 
 ## 0.1.0
 

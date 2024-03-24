@@ -1,4 +1,4 @@
-# @turbocharger/tailwind-config
+# @repo/tailwind-config
 
 ## 0.1.1
 

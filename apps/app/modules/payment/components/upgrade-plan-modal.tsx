@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import { Price, Product } from "@turbocharger/database";
-import { Dialog, DialogContent, DialogTrigger, Label, Switch } from "@turbocharger/ui";
-import { cn } from "@turbocharger/utils";
+import { Price, Product } from "@repo/database";
+import { Dialog, DialogContent, DialogTrigger, Label, Switch } from "@repo/ui";
+import { cn } from "@repo/utils";
 import { PricingPlan } from "./pricing-plan-card";
 
 type Plan = Product & { price: Price[] };

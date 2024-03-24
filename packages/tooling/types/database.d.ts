@@ -1,1 +1,1 @@
-export * from "@turbocharger/database";
+export * from "@repo/database";

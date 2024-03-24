@@ -1,7 +1,7 @@
 import React, { useTransition } from "react";
 import { useRouter } from "next/navigation";
-import { Badge, Button, CheckCircleIcon, useToast } from "@turbocharger/ui";
-import { cn } from "@turbocharger/utils";
+import { Badge, Button, CheckCircleIcon, useToast } from "@repo/ui";
+import { cn } from "@repo/utils";
 import { createCheckoutSession } from "../actions";
 
 interface PlanProps {

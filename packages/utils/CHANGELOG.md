@@ -1,4 +1,4 @@
-# @turbocharger/utils
+# @repo/utils
 
 ## 0.1.1
 

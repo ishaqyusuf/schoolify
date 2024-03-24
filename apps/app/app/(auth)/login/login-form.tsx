@@ -1,7 +1,7 @@
 "use client";
 
+import { Button } from "@repo/ui";
 import { useForm } from "react-hook-form";
-import { Button } from "@turbocharger/ui";
 
 export default function LoginForm({}) {
   const form = useForm({

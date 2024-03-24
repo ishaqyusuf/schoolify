@@ -9,7 +9,7 @@
   },
   "rsc": false,
   "aliases": {
-    "utils": "@turbocharger/utils",
+    "utils": "@repo/utils",
     "components": "src/components"
   }
 }

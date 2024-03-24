@@ -1,11 +1,11 @@
 {
-  "name": "@turbocharger/types",
+  "name": "@repo/types",
   "version": "0.0.1",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "@turbocharger/database": "*"
+    "@repo/database": "*"
   }
 }

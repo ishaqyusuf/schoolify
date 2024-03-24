@@ -21,8 +21,8 @@ import {
   Sheet,
   SheetContent,
   PaletteIcon,
-} from "@turbocharger/ui";
-import { cn } from "@turbocharger/utils";
+} from "@repo/ui";
+import { cn } from "@repo/utils";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { siteConfig } from "@/config";
 

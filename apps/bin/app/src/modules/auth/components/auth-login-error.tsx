@@ -1,6 +1,6 @@
 import React from "react";
 import { useSearchParams } from "next/navigation";
-import { Alert, AlertDescription } from "@turbocharger/ui";
+import { Alert, AlertDescription } from "@repo/ui";
 
 interface AuthLoginProps {
   className: string;

@@ -1,5 +1,5 @@
 {
-  "name": "@turbocharger/database",
+  "name": "@repo/database",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
@@ -27,8 +27,8 @@
     "@prisma/client": "^5.6.0"
   },
   "devDependencies": {
-    "@turbocharger/eslint-config": "*",
-    "@turbocharger/ts-config": "*",
+    "@repo/eslint-config": "*",
+    "@repo/ts-config": "*",
     "prisma": "^5.6.0",
     "rimraf": "^3.0.2",
     "tsup": "^6.0.1",

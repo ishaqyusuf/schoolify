@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { cn, stringReplace } from "@turbocharger/utils";
+import { cn, stringReplace } from "@repo/utils";
 
 interface TestimonialProps {
   headline: string;

@@ -1,4 +1,4 @@
-import { cn } from "@turbocharger/utils";
+import { cn } from "@repo/utils";
 
 interface FormCardLayoutProps extends React.ButtonHTMLAttributes<HTMLFormElement> {
   title: string;

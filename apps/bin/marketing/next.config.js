@@ -6,9 +6,5 @@ module.exports = {
     remotePatterns: [],
   },
   reactStrictMode: false,
-  transpilePackages: [
-    "@turbocharger/ui",
-    "@turbocharger/utils",
-    "@turbocharger/database",
-  ],
+  transpilePackages: ["@repo/ui", "@repo/utils", "@repo/database"],
 };

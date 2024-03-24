@@ -1,5 +1,5 @@
 import React from "react";
-import { Invoice } from "@turbocharger/database";
+import { Invoice } from "@repo/database";
 import {
   Badge,
   Button,
@@ -9,8 +9,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@turbocharger/ui";
-import { cn, formatDate } from "@turbocharger/utils";
+} from "@repo/ui";
+import { cn, formatDate } from "@repo/utils";
 import { FormCardLayout } from "@/components/layout/form-card-layout";
 
 interface InvoicesListProps {

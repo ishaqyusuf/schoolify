@@ -1,1 +1,1 @@
-module.exports = require("@turbocharger/eslint-config/basic");
+module.exports = require("@repo/eslint-config/basic");

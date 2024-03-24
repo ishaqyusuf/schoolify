@@ -3,8 +3,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Badge } from "@turbocharger/ui";
-import { cn, formatDate } from "@turbocharger/utils";
+import { Badge } from "@repo/ui";
+import { cn, formatDate } from "@repo/utils";
 
 interface PostListItemProps {
   href: string;

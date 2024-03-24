@@ -1,5 +1,5 @@
+import { prisma } from "@repo/database";
 import Stripe from "stripe";
-import { prisma } from "@turbocharger/database";
 import { stripe } from "~/lib/stripe";
 import { getUser } from "~/modules/auth/services";
 

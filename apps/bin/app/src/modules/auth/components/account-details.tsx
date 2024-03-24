@@ -1,5 +1,5 @@
 import React from "react";
-import { Input, Label } from "@turbocharger/ui";
+import { Input, Label } from "@repo/ui";
 import { FormCardLayout } from "@/components/layout/form-card-layout";
 
 interface AccountDetailsProps {

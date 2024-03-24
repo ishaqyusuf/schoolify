@@ -1,5 +1,5 @@
 import React from "react";
-import { cn } from "@turbocharger/utils";
+import { cn } from "@repo/utils";
 
 interface AppPageLayoutProps {
   title: string;

@@ -1,6 +1,6 @@
 import { notFound, redirect } from "next/navigation";
-import { Price, Product, prisma } from "@turbocharger/database";
-import { Badge, Button, CheckCircleIcon, ExternalLinkIcon } from "@turbocharger/ui";
+import { Price, Product, prisma } from "@repo/database";
+import { Badge, Button, CheckCircleIcon, ExternalLinkIcon } from "@repo/ui";
 import { AppPageLayout } from "~/components/layout/app-page-layout";
 import { getSession } from "~/modules/auth/services";
 import { UpgradePlanModal } from "~/modules/payment/components/upgrade-plan-modal";

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { ArrowRightIcon } from "@turbocharger/ui";
-import { cn } from "@turbocharger/utils";
+import { ArrowRightIcon } from "@repo/ui";
+import { cn } from "@repo/utils";
 
 interface FeaturesProps {
   className?: string;

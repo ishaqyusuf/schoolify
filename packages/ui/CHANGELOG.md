@@ -1,4 +1,4 @@
-# @turbocharger/ui
+# @repo/ui
 
 ## 0.1.2
 
@@ -12,7 +12,7 @@
 
 - 84b64a9: v 0.1.1
 - Updated dependencies [84b64a9]
-  - @turbocharger/utils@0.1.1
+  - @repo/utils@0.1.1
 
 ## 0.1.0
 
@@ -23,7 +23,7 @@
 ### Patch Changes
 
 - Updated dependencies [76c9cee]
-  - @turbocharger/utils@0.1.0
+  - @repo/utils@0.1.0
 
 ## 0.0.1
 
@@ -31,4 +31,4 @@
 
 - ba2a8fa: Project init
 - Updated dependencies [ba2a8fa]
-  - @turbocharger/utils@0.0.1
+  - @repo/utils@0.0.1

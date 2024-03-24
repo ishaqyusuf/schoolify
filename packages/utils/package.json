@@ -1,5 +1,5 @@
 {
-  "name": "@turbocharger/utils",
+  "name": "@repo/utils",
   "version": "0.1.1",
   "sideEffects": false,
   "types": "./dist/index.d.ts",
@@ -24,8 +24,8 @@
     "tailwind-merge": "^2.0.0"
   },
   "devDependencies": {
-    "@turbocharger/eslint-config": "*",
-    "@turbocharger/ts-config": "*",
+    "@repo/eslint-config": "*",
+    "@repo/ts-config": "*",
     "tsup": "^6.0.1",
     "typescript": "^5.2.2"
   }

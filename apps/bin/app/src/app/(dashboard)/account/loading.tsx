@@ -1,4 +1,4 @@
-import { Skeleton } from "@turbocharger/ui";
+import { Skeleton } from "@repo/ui";
 import { AppPageLayout } from "@/components/layout/app-page-layout";
 
 export default function Loading() {

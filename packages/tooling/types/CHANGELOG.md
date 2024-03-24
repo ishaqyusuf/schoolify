@@ -1,4 +1,4 @@
-# @turbocharger/types
+# @repo/types
 
 ## 0.0.1
 

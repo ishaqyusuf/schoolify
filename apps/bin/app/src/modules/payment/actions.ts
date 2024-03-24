@@ -1,6 +1,6 @@
 "use server";
 
-import { prisma } from "@turbocharger/database";
+import { prisma } from "@repo/database";
 import { stripe } from "@/lib/stripe";
 import { getSession } from "@/modules/auth/services";
 import { absoluteUrl } from "@/utils";

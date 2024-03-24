@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Button, XIcon } from "@turbocharger/ui";
+import { Button, XIcon } from "@repo/ui";
 import { CollectEmailsModal } from "./collect-emails-modal";
 
 export const Banner = () => {
