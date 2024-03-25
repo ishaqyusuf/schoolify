@@ -35,7 +35,7 @@ export const siteConfig = {
     },
     cta: {
       primary: {
-        label: "Get Started",
+        label: "Get early access",
         href: APP_URL,
       },
       secondary: {
@@ -60,8 +60,8 @@ export const siteConfig = {
       subheadline:
         "Take your institution to the next level with Schoolify, an all in one school managament system.",
       cta: [
-        { label: "Go to App", href: APP_URL },
-        { label: "Star on GitHub", href: "https://github.com/mehdibha/turbocharger" },
+        { label: "Talk to us", href: "/talk-to-us" },
+        { label: "Get early access", href: "" },
       ],
       demoVideo: {
         src: null,

@@ -1,15 +1,26 @@
 import { NextResponse } from "next/server";
 import { getToken } from "next-auth/jwt";
 import { withAuth } from "next-auth/middleware";
+import { createI18nMiddleware } from "next-international/middleware";
 import { env } from "process";
 
+const I18nMiddleware = createI18nMiddleware({
+  locales: ["en"],
+  defaultLocale: "en",
+  urlMappingStrategy: "rewrite",
+});
 export default withAuth(
   async function middleware(req) {
+    const response = I18nMiddleware(req);
     let hostname = req.headers
       .get("host")!
       .replace(".localhost:3000", `.${env.NEXT_PUBLIC_ROOT_DOMAIN}`);
+    const url = new URL("/", req.url);
+    const nextUrl = req.nextUrl;
 
-    console.log(">>>");
+    const pathnameLocale = nextUrl.pathname.split("/", 2)?.[1] || [];
+    // Remove the locale from the pathname
+    const pathnameWithoutLocale = nextUrl.pathname.slice(pathnameLocale.length + 1);
 
     const token = await getToken({ req });
     const isAuth = !!token;
