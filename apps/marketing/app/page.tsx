@@ -3,6 +3,7 @@ import { Features } from "@/components/features";
 import { Hero } from "@/components/hero";
 import { Testimonials } from "@/components/testimonials";
 import { siteConfig } from "@/config";
+import { Screens } from "./components/screens";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
         demoVideo={siteConfig.homePage.hero.demoVideo}
         companies={siteConfig.homePage.hero.companies}
       />
+      <Screens />
       <Features className="mt-40" features={siteConfig.homePage.features.features} />
       <Testimonials
         headline={siteConfig.homePage.testimonial.headline}

@@ -21,6 +21,7 @@ export * from "./components/ui/popover";
 export * from "./components/ui/radio-group";
 export * from "./components/ui/multi-select";
 export * from "./components/ui/multi-select-freesolo";
+export * from "./components/ui/tooltip";
 
 // hooks
 export * from "./hooks/use-toast";

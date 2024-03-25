@@ -58,7 +58,7 @@ export const Hero = (props: HeroProps) => {
           </div>
         </div>
       )}
-      <div className="mt-28">
+      {/* <div className="mt-28">
         <p className="text-muted-foreground text-center text-xl font-semibold">
           Backed by these companies
         </p>
@@ -72,7 +72,7 @@ export const Hero = (props: HeroProps) => {
             );
           })}
         </ul>
-      </div>
+      </div> */}
     </section>
   );
 };

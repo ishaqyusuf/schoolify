@@ -8,9 +8,9 @@ import { APP_URL } from "./constants";
 export const siteConfig = {
   global: {
     url: "https://turbocharger.cc",
-    name: "Turbocharger",
+    name: "Schoolify",
     logo: "/images/logo.png",
-    title: "Turbocharger | A monorepo starter to speed up your development",
+    title: "Schoolify | The complete school management system",
     description:
       "Turbocharge your project with this monorepo starter. It comes with Next.js, Tailwind CSS, Shadcn-ui, Server components, and more.",
     keywords: ["Next.js", "React", "Tailwind CSS", "Shadcn-ui", "Server components"],
@@ -56,9 +56,9 @@ export const siteConfig = {
   },
   homePage: {
     hero: {
-      headline: "A **monorepo starter** to speed up\n your development",
+      headline: "A **School Management** system \nfor your schools and institutions",
       subheadline:
-        "Turbocharge your project with this monorepo starter. It comes with Next.js, Tailwind CSS, Shadcn-ui, Server components, and more.",
+        "Take your institution to the next level with Schoolify, an all in one school managament system.",
       cta: [
         { label: "Go to App", href: APP_URL },
         { label: "Star on GitHub", href: "https://github.com/mehdibha/turbocharger" },
@@ -157,7 +157,7 @@ export const siteConfig = {
   pricingPage: {
     headline: "Simple pricing.",
     subheadline:
-      "Use turbocharger for free. Upgrade to enable custom domains and more advanced features.",
+      "Use schoolify for free. Upgrade to enable custom domains and more advanced features.",
     pricingPlans: [
       {
         name: "Free",
